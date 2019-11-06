@@ -1,0 +1,11 @@
+---
+applications:
+- name: actuators-framework-example
+  instances: 1
+  memory: 512M
+  disk_quota: 512M
+  buildpack: hwc_buildpack
+  stack: windows
+  env:
+    PROJECT_GUID: ef596862-dd98-4028-a51c-2a98845e12b6
+    PROJECT_NAME: 'Steeltoe-CloudFoundry-Template1'
